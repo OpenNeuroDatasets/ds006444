@@ -1,0 +1,15 @@
+{
+  "Name": "BIASS Derivatives",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "Experiment 1",
+      "Description": "Original segmentation probability maps and masks." 
+    },
+    {
+      "Name": "Experiment 2",
+      "Description": "CSF/GM/WM combined tissue masks for the extended cohort." 
+    }
+  ]
+}

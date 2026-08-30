@@ -1,0 +1,35 @@
+{
+  "Name": "Segmentation-Combined Tissue Masks (Experiment 2)",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "derivative",
+  "ReferencesAndLinks": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4680055/"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "ANTs",
+      "Description": "CSF/GM/WM probability maps thresholded and merged into a single discrete label map using combine_tissue_masks_discrete.sh"
+    },
+    {
+      "Name": "FSL FAST",
+      "Description": "Partial volume estimates converted to CSF/GM/WM labels via combine_tissue_masks_discrete.sh"
+    },
+    {
+      "Name": "SPM12",
+      "Description": "Probabilistic tissue classes binarized and merged via combine_tissue_masks_discrete.sh"
+    },
+    {
+      "Name": "Manual",
+      "Description": "Rater-provided LabelsForTesting volumes exported as discrete tissue maps"
+    },
+    {
+      "Name": "ManualPerturbed",
+      "Description": "Perturbed manual segmentations split into tissue classes using combine_tissue_masks_discrete_manual_perturbed.sh"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://mrbrains13.isi.uu.nl/"
+    }
+  ]
+}
